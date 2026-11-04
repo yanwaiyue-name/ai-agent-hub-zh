@@ -9,9 +9,14 @@
     "deploy": "npm install -g @anthropic-ai/claude-code",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed",
-    "http_code": 0,
-    "final_url": null
+    "checked_from": "github-actions",
+    "http_code": 200,
+    "final_url": "https://github.com/anthropics/claude-code",
+    "stars": 154495,
+    "pushed_at": "11/04/2026 00:02:45",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "reachable_via": "direct"
   },
   {
     "category": "编码代理",
@@ -23,9 +28,14 @@
     "deploy": "brew install opencode-ai/tap/opencode   # 或官网下载二进制",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed",
-    "http_code": 0,
-    "final_url": null
+    "checked_from": "github-actions",
+    "http_code": 200,
+    "final_url": "https://github.com/opencode-ai/opencode",
+    "stars": 13857,
+    "pushed_at": "09/18/2025 02:54:28",
+    "archived": true,
+    "synced_at": "2026-11-04",
+    "reachable_via": "direct"
   },
   {
     "category": "编码代理",
@@ -37,9 +47,14 @@
     "deploy": "npm install -g @openai/codex",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed",
-    "http_code": 0,
-    "final_url": null
+    "checked_from": "github-actions",
+    "http_code": 200,
+    "final_url": "https://github.com/openai/codex",
+    "stars": 133103,
+    "pushed_at": "11/04/2026 09:52:12",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "reachable_via": "direct"
   },
   {
     "category": "编码代理",
@@ -51,7 +66,14 @@
     "deploy": "官网 ccswitch.io 下载",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 151744,
+    "pushed_at": "11/04/2026 03:37:11",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/farion1231/cc-switch",
+    "reachable_via": "direct"
   },
   {
     "category": "编码代理",
@@ -63,7 +85,14 @@
     "deploy": "见仓库 README（npm / 桌面端）",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 51089,
+    "pushed_at": "11/04/2026 12:29:30",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/moeru-ai/airi",
+    "reachable_via": "direct"
   },
   {
     "category": "编码代理",
@@ -75,7 +104,14 @@
     "deploy": "npm create voltagent@latest",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 10919,
+    "pushed_at": "10/15/2026 17:38:41",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/VoltAgent/voltagent",
+    "reachable_via": "direct"
   },
   {
     "category": "编码代理",
@@ -87,7 +123,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 429164,
+    "pushed_at": "11/04/2026 12:28:54",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/morluto/rea",
+    "reachable_via": "direct"
   },
   {
     "category": "编码代理",
@@ -99,7 +142,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 41159,
+    "pushed_at": "11/04/2026 07:23:57",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/codewhale-hq/Codewhale",
+    "reachable_via": "direct"
   },
   {
     "category": "破甲 Harness",
@@ -111,7 +161,14 @@
     "deploy": "见各子项目 README（TS / Dart / JS）",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 18170,
+    "pushed_at": "11/03/2026 09:29:14",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+    "reachable_via": "direct"
   },
   {
     "category": "破甲 Harness",
@@ -123,7 +180,14 @@
     "deploy": "见仓库 README（你自己的 fork）",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 1,
+    "pushed_at": "10/22/2026 13:16:26",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/yanwaiyue-name/haiou2.0-Claude-Code-",
+    "reachable_via": "direct"
   },
   {
     "category": "破甲 Harness",
@@ -135,7 +199,14 @@
     "deploy": "见仓库 README（你自己的 fork）",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 0,
+    "pushed_at": "10/23/2026 17:51:22",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/yanwaiyue-name/dsh-purge",
+    "reachable_via": "direct"
   },
   {
     "category": "破甲 Harness",
@@ -147,7 +218,14 @@
     "deploy": "见仓库 README（Claude skill 安装）",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 8017,
+    "pushed_at": "11/01/2026 16:46:10",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/heydamir/unslop",
+    "reachable_via": "direct"
   },
   {
     "category": "破甲 Harness",
@@ -159,7 +237,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 2135,
+    "pushed_at": "11/04/2026 11:21:22",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/qybaihe/bla",
+    "reachable_via": "direct"
   },
   {
     "category": "破甲 Harness",
@@ -171,7 +256,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 113166,
+    "pushed_at": "11/01/2026 19:24:49",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/addyosmani/agent-skills",
+    "reachable_via": "direct"
   },
   {
     "category": "破甲 Harness",
@@ -183,7 +275,14 @@
     "deploy": "复制 CLAUDE.md 到项目根",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 229304,
+    "pushed_at": "04/20/2026 10:05:04",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "reachable_via": "direct"
   },
   {
     "category": "Skills 库",
@@ -195,7 +294,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 187273,
+    "pushed_at": "10/28/2026 19:20:39",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/anthropics/skills",
+    "reachable_via": "direct"
   },
   {
     "category": "Skills 库",
@@ -207,7 +313,14 @@
     "deploy": "见仓库 README（Claude skill）",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 24683,
+    "pushed_at": "10/18/2026 20:20:24",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/wheresryan22/anatomy",
+    "reachable_via": "direct"
   },
   {
     "category": "Skills 库",
@@ -219,7 +332,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 6206,
+    "pushed_at": "10/16/2026 17:03:31",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/alchaincyf/huashu-art-motion",
+    "reachable_via": "direct"
   },
   {
     "category": "Skills 库",
@@ -231,7 +351,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 4491,
+    "pushed_at": "10/31/2026 08:44:14",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/patch-gg/pixelfx",
+    "reachable_via": "direct"
   },
   {
     "category": "Skills 库",
@@ -243,7 +370,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 5106,
+    "pushed_at": "10/20/2026 14:18:00",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/Jakeschincariol/day-trader-skill",
+    "reachable_via": "direct"
   },
   {
     "category": "Skills 库",
@@ -255,7 +389,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 2833,
+    "pushed_at": "10/28/2026 02:38:03",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/t3dotgg/tstack",
+    "reachable_via": "direct"
   },
   {
     "category": "Skills 库",
@@ -267,7 +408,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 21851,
+    "pushed_at": "11/04/2026 02:48:07",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/jnMetaCode/agency-agents-zh",
+    "reachable_via": "direct"
   },
   {
     "category": "Skills 库",
@@ -279,7 +427,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 76486,
+    "pushed_at": "11/01/2026 17:36:07",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/colbymchenry/codegraph",
+    "reachable_via": "direct"
   },
   {
     "category": "免费额度网关",
@@ -291,7 +446,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 84418,
+    "pushed_at": "11/04/2026 12:29:47",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/cheaper-inference/OmniRoute",
+    "reachable_via": "direct"
   },
   {
     "category": "免费额度网关",
@@ -303,7 +465,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 66297,
+    "pushed_at": "11/04/2026 12:26:03",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/Alishahryar1/free-claude-code",
+    "reachable_via": "direct"
   },
   {
     "category": "免费额度网关",
@@ -315,7 +484,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 57473,
+    "pushed_at": "11/04/2026 12:15:51",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/router-for-me/CLIProxyAPI",
+    "reachable_via": "direct"
   },
   {
     "category": "免费额度网关",
@@ -327,7 +503,14 @@
     "deploy": "docker run 一行起，见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 37334,
+    "pushed_at": "01/09/2026 03:26:43",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/songquanpeng/one-api",
+    "reachable_via": "direct"
   },
   {
     "category": "免费额度网关",
@@ -339,7 +522,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 16240,
+    "pushed_at": "11/04/2026 01:46:28",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/chenhg5/cc-connect",
+    "reachable_via": "direct"
   },
   {
     "category": "代理 / 中转",
@@ -351,7 +541,14 @@
     "deploy": "官网/ releases 下载",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 61011,
+    "pushed_at": "11/04/2026 07:31:46",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/chen08209/FlClash",
+    "reachable_via": "direct"
   },
   {
     "category": "代理 / 中转",
@@ -363,7 +560,14 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 14341,
+    "pushed_at": "11/04/2026 08:40:06",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/wanghongenpin/proxypin",
+    "reachable_via": "direct"
   },
   {
     "category": "代理 / 中转",
@@ -375,6 +579,13 @@
     "deploy": "见仓库 README",
     "status": "ok",
     "last_checked": "2026-11-04",
-    "checked_from": "seed"
+    "checked_from": "github-actions",
+    "stars": 39622,
+    "pushed_at": "11/03/2026 05:52:38",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "http_code": 200,
+    "final_url": "https://github.com/SagerNet/sing-box",
+    "reachable_via": "direct"
   }
 ]
