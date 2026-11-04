@@ -26,6 +26,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: 数据校验（字段 / URL / 枚举 / 去重）
+        shell: pwsh
+        run: ./scripts/validate.ps1
+
+      - name: 上游更新检测（star / push 时间 / 归档状态）
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: ./scripts/sync-upstream.ps1 -Token $env:GH_TOKEN
+
       - name: 链接体检（境外环境，无响应判失效 + 异地复核）
         shell: pwsh
         run: ./scripts/check_links.ps1 -Runner github-actions -TimeoutSec 12 -SecondOpinion

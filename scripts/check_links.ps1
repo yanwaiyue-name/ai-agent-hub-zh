@@ -143,7 +143,10 @@ function Get-SecondOpinion {
 # ---------------- 主流程 ----------------
 $rawData  = Get-Content -LiteralPath $DataPath -Raw -Encoding UTF8 | ConvertFrom-Json
 $tools    = @($rawData)
-if ($MaxItems -gt 0 -and $tools.Count -gt $MaxItems) { $tools = @($tools[0..($MaxItems - 1)]) }
+# -MaxItems 只限制「本轮探测多少条」，绝不能截断数组：
+# 末尾 WriteAllText 会把 $tools 整个写回数据文件，截断等于永久删数据。
+$probeSet = $tools
+if ($MaxItems -gt 0 -and $probeSet.Count -gt $MaxItems) { $probeSet = @($probeSet[0..($MaxItems - 1)]) }
 $client   = New-ProbeClient -Timeout $TimeoutSec
 $proxyClient = $null
 if ($ProxyUrl) { $proxyClient = New-ProbeClient -Timeout $TimeoutSec -Proxy $ProxyUrl; Write-Host ("已启用代理复核口径：" + $ProxyUrl) }
@@ -152,7 +155,7 @@ $rows = New-Object System.Collections.Generic.List[string]
 $ok = 0; $unknown = 0; $dead = 0
 
 try {
-    foreach ($t in $tools) {
+    foreach ($t in $probeSet) {
         foreach ($p in @('status', 'http_code', 'final_url', 'last_checked', 'checked_from')) {
             if (-not ($t.PSObject.Properties.Name -contains $p)) { $t | Add-Member -NotePropertyName $p -NotePropertyValue $null }
         }
