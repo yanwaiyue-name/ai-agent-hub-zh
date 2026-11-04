@@ -532,6 +532,25 @@
     "reachable_via": "direct"
   },
   {
+    "category": "免费额度网关",
+    "name": "magpie",
+    "platform": "Windows / macOS / Linux",
+    "notes": "菜单栏里的多 Agent 模型路由：一个本地网关统一 Provider / 订阅 / 多账号，配额耗尽自动切换；支持 Claude Code / Codex / Gemini CLI 等",
+    "url": "https://github.com/yetone/magpie",
+    "cn_friendly": "direct",
+    "deploy": "官网 usemagpie.ai 下载；或见仓库 README",
+    "status": "ok",
+    "last_checked": "2026-11-04",
+    "checked_from": "local",
+    "http_code": 200,
+    "final_url": "https://github.com/yetone/magpie",
+    "stars": 29579,
+    "pushed_at": "11/04/2026 13:43:06",
+    "archived": false,
+    "synced_at": "2026-11-04",
+    "reachable_via": "direct"
+  },
+  {
     "category": "代理 / 中转",
     "name": "FlClash",
     "platform": "全平台（Dart）",

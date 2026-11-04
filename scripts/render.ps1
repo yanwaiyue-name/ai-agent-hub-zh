@@ -105,6 +105,7 @@ $html = @"
 </style>
 </head>
 <body>
+<script src="https://yanwaiyue-name.github.io/yuese-nav/nav.js" data-site="ai-agent-hub-zh" data-theme="auto" data-max="1180" defer></script>
   <h1>🤖 AI Agent 工坊 · 中文资源导航</h1>
   <p class="sub">编码代理 / 破甲 Harness / Skills 库 / 免费额度网关 / 代理中转 — 每周自动体检</p>
   <div class="summary">
