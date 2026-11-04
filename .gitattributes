@@ -1,0 +1,11 @@
+* text=auto
+
+# 脚本按平台方言钉死换行
+*.ps1 text eol=crlf
+*.yml text eol=lf
+*.sh  text eol=lf
+*.cmd text eol=crlf
+
+# 生成物固定 LF，避免 Windows 本地跑完 render 后出现幻影 diff
+README.md    text eol=lf
+docs/index.html text eol=lf

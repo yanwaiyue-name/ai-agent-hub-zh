@@ -12,7 +12,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/状态-维护中-blue)
-[![validate-pr](https://github.com/yanwaiyue-name/ai-agent-hub-zh/actions/workflows/validate-pr.yml/badge.svg)](https://github.com/yanwaiyue-name/ai-agent-hub-zh/actions/workflows/validate-pr.yml)
+[![deploy-pages](https://github.com/yanwaiyue-name/ai-agent-hub-zh/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/yanwaiyue-name/ai-agent-hub-zh/actions/workflows/deploy-pages.yml)
 
 </div>
 
@@ -49,7 +49,7 @@
 
 | 你是 | 点这里 | 说明 |
 | --- | --- | --- |
-| **只想看看有哪些项目** | [清单.html](docs/index.html) · [在线查看](https://yanwaiyue-name.github.io/ai-agent-hub-zh/) | 单文件网页，下载后双击即开 |
+| **只想看看有哪些项目** | [网页清单](docs/index.html) · [在线查看](https://yanwaiyue-name.github.io/ai-agent-hub-zh/) | 单文件网页，下载后双击即开 |
 | **想看结构化数据** | [data/tools.json](data/tools.json) | 机器可读，可被你自己的脚本消费 |
 | **想跑自动体检** | 双击 `scripts/check_links.ps1` 或见下方 Actions | 本地/CI 都能跑 |
 

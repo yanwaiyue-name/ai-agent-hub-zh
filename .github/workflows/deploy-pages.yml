@@ -1,0 +1,54 @@
+name: deploy-pages
+
+# push 到 main 就重新渲染并部署，不必等周六的定时体检。
+# 定时任务 weekly-check 仍然负责联网体检和数据回写。
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - 'docs/**'
+      - 'README.md'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 数据校验（字段 / URL / 枚举 / 去重）
+        shell: pwsh
+        run: ./scripts/validate.ps1
+
+      - name: 重新渲染 docs/index.html
+        shell: pwsh
+        run: ./scripts/render.ps1
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
